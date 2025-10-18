@@ -5,7 +5,7 @@ uv run pytest -v ./tests --junitxml=test_results.xml || true
 echo "Done running tests"
 
 # Set the name of the output tar.gz file
-output_file="cse599o-spring2024-assignment-2-submission.zip"
+output_file="cse599o-fall2025-assignment-2-submission.zip"
 rm "$output_file" || true
 
 # Compress all files in the current directory into a single zip file
